@@ -1,0 +1,33 @@
+
+> chromatic-test@0.1.0 build-storybook
+> storybook build --output-dir /var/folders/8p/k84m_zzx6yz_s258bw82jt880000gr/T/chromatic--24418-szwTNBy09VpV
+
+@storybook/cli v7.6.17
+
+info => Cleaning outputDir: /var/folders/8p/k84m_zzx6yz_s258bw82jt880000gr/T/chromatic--24418-szwTNBy09VpV
+info => Loading presets
+info => Building manager..
+info => Manager built (63 ms)
+info => Building preview..
+info => Copying static files: /Users/mingfang/code/chromatic-test/node_modules/@storybook/manager/static at /var/folders/8p/k84m_zzx6yz_s258bw82jt880000gr/T/chromatic--24418-szwTNBy09VpV/sb-common-assets
+info Using Babel compiler
+info Addon-docs: using MDX2
+info => Using implicit CSS loaders
+info => Using default Webpack5 setup
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   static/media/addon-library.7d60eaf1.png (456 KiB)
+WARN   71.650d7436.iframe.bundle.js (583 KiB)
+WARN   3.c2ac0b5a.iframe.bundle.js (715 KiB)
+WARN   46.d44293a8.iframe.bundle.js (1.03 MiB)
+WARN   203.0d20c698.iframe.bundle.js (823 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (1.04 MiB)
+WARN       runtime~main.ef11814e.iframe.bundle.js
+WARN       46.d44293a8.iframe.bundle.js
+WARN       main.8bda9b5e.iframe.bundle.js
+WARN 
+info => Preview built (5.9 s)
+info => Output directory: /var/folders/8p/k84m_zzx6yz_s258bw82jt880000gr/T/chromatic--24418-szwTNBy09VpV
